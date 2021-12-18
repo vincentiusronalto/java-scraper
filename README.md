@@ -19,5 +19,8 @@ that's why it's take a while to produce 100 records
 ajax call so jsoup cannot utilize it (need nested calling selenium that it 
 will take so many resource and time, so I skip it for now), so I use the count star image on product listings
 6. Getting the title, price, store, image link is straightforward thats appear on every listings
-7. After saving all record to arrayList, convert it to csv structure with opencsv and write to a file
+7. Append all record to arrayList, 
+8. Proceed open & switch new tab in chromedriver and open page 2
+9. Repeat the step 3-7
+10. convert data from arrayList with opencsv and write to folder csv, as filename-date_time.csv
 
