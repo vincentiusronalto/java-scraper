@@ -5,8 +5,13 @@
 2. Chromedriver and Selenium for waiting the page to load scrolling to bottom and getting html
 3. Jsoup to extract info from the html
 4. OpenCSV for writing to csv file
-4. The main logic on src folder
-5. The example output on csv folder
+4. **The main logic on folder src/main/...**
+5. **The example csv output on folder csv** 
+
+# To run the project
+1. Need java, chromedriver, maven, vscode / java IDE
+2. Can click run from Makefile
+3. After we run the project, there will be automatically an opened chrome, need to wait until it display the content and it will be automatically scroll, to get rest of the html
 
 # Flow of the program
 1. Initialize arrayList for saving product data
